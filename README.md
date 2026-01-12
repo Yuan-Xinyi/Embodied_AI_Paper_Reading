@@ -67,6 +67,3 @@
 
 [π 0.6: a VLA That Learns From Experience](https://arxiv.org/abs/2511.14759)
 > Improve VLA through real-world deployments via reinforcement learning (RL)
-
-
-
