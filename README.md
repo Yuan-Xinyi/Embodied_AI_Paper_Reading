@@ -1,9 +1,20 @@
 # Embodied_AI_Paper_Reading
 
 ## Manipulation
+### IK
+
+### Motion Planning
+
+### TAMP
 
 ## Foundation Models
+### World Model
 
-## Task & Motion Planning
+### VLA & VLM
 
-## Benchmarks
+## Infrastructure
+### Benchmark
+
+### Hardware
+
+### Simulation
