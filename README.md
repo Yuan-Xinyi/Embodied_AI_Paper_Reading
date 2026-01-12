@@ -5,7 +5,6 @@
 [A Survey of Reinforcement Learning for Large Reasoning Models](https://arxiv.org/abs/2509.08827)<br>
 [A review of learning-based dynamics models for robotic manipulation](https://www.science.org/doi/10.1126/scirobotics.adt1497)<br>
 [Diffusion Models for Reinforcement Learning: A Survey](https://arxiv.org/abs/2311.01223)<br>
-[Diffusion Model for Planning:  A Systematic Literature Review](https://arxiv.org/abs/2408.10266)<br>
 
 ## Learning-based Method
 ### Imitation Learning
