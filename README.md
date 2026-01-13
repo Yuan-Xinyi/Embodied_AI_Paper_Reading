@@ -53,6 +53,10 @@
 - [SAM 3: Segment Anything with Concepts](https://github.com/facebookresearch/sam3)
 - [Depth Anything 3: Recovering the Visual Space from Any Views](https://github.com/ByteDance-Seed/Depth-Anything-3)
 
+**Data Augmentation**
+- [RoboEngine: Plug-and-Play Robot Data Augmentation with Semantic Robot Segmentation and Background Generation](https://arxiv.org/abs/2503.18738): Visual data augmentations
+- [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](https://robovip.github.io/RoboVIP/): Multi-view video generation
+
 ### Motion Planning
 
 ### TAMP
