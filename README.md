@@ -11,9 +11,8 @@
 ## Learning-based Method
 
 ### Imitation Learning
-- [Model-Based Diffusion Sampling for Predictive Control in Offline Decision Making](https://arxiv.org/abs/2512.08280)  
+- [Model-Based Diffusion Sampling for Predictive Control in Offline Decision Making](https://arxiv.org/abs/2512.08280)
   > Improve reliability: a planner + a dynamics model
-
 - [Equivariant Diffusion Policy](https://arxiv.org/abs/2407.01812)
 
 ### Reinforcement Learning
@@ -22,10 +21,12 @@
 - [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](https://arxiv.org/abs/2512.16861)  
   > Long horizon and complicated task decomposition  
   > IL (teleoperation and synthetic data gen) + RL (online adaptation)
-
 - [RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning](https://arxiv.org/abs/2510.14830)
 
 ## Reasoning
+- [Watching, Reasoning, and Searching: A Video Deep Research Benchmark on Open Web for Agentic Video Reasoning](https://arxiv.org/abs/2601.06943)
+- [Lost in the Noise: How Reasoning Models Fail with Contextual Distractors](https://arxiv.org/abs/2601.07226)
+  > models disproportionately focus on distractor tokens
 
 ### Inference
 - [SpatialTree: How Spatial Abilities Branch Out in MLLMs](https://arxiv.org/pdf/2512.20617)  
@@ -62,17 +63,16 @@
 ### TAMP
 
 ## Foundation Models
+- [One Language-Free Foundation Model Is Enough for Universal Vision Anomaly Detection](https://arxiv.org/abs/2601.05552) 
 - [What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models](https://arxiv.org/pdf/2512.03422)
 
 ### World Model
 - [Flow Equivariant World Models: Memory for Partially Observed Dynamic Environments](https://arxiv.org/abs/2601.01075)  
   > Self-motion and external object motion are unified as flows to attain spatial latent memory & internal dynamics.
-
 - [Yume1.5: A Text-Controlled Interactive World Generation Model](https://arxiv.org/pdf/2512.22096)
 
 ### VLA & VLM
 - [Emergence of Human to Robot Transfer in Vision-Language-Action Models](https://www.pi.website/download/human_to_robot.pdf)  
   > The diversity of robot data for pre-training VLAs is proportional to the capability of leveraging human videos during post-training.
-
 - [π 0.6: a VLA That Learns From Experience](https://arxiv.org/abs/2511.14759)  
   > Improve VLA through real-world deployments via reinforcement learning (RL)
