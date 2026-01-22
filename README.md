@@ -72,6 +72,7 @@
 - [Yume1.5: A Text-Controlled Interactive World Generation Model](https://arxiv.org/pdf/2512.22096)
 
 ### VLA & VLM
+- [ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver](https://arxiv.org/pdf/2508.10333) **(AAAI2026 Outstanding Paper Award)**
 - [Emergence of Human to Robot Transfer in Vision-Language-Action Models](https://www.pi.website/download/human_to_robot.pdf)  
   > The diversity of robot data for pre-training VLAs is proportional to the capability of leveraging human videos during post-training.
 - [π 0.6: a VLA That Learns From Experience](https://arxiv.org/abs/2511.14759)  
