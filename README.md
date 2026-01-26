@@ -10,6 +10,9 @@
 
 ## Learning-based Method
 
+### Dynamics
+- [Contact-Aware Neural Dynamics](https://arxiv.org/pdf/2601.12796)
+
 ### Imitation Learning
 - [Model-Based Diffusion Sampling for Predictive Control in Offline Decision Making](https://arxiv.org/abs/2512.08280)
   > Improve reliability: a planner + a dynamics model
@@ -19,7 +22,6 @@
 
 ### IL+RL
 - [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](https://arxiv.org/abs/2512.16861)  
-  > Long horizon and complicated task decomposition  
   > IL (teleoperation and synthetic data gen) + RL (online adaptation)
 - [RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning](https://arxiv.org/abs/2510.14830)
 
@@ -34,7 +36,6 @@
 
 ### Reward Design
 - [RoboReward: General-Purpose Vision-Language Reward Models for Robotics](https://arxiv.org/pdf/2601.00675)  
-  > Automated vision-language reward models considering negative and partial progress examples.  
   > Relabels successful episodes with failed instructions and near-miss instructions for the same video (clipping).
 
 ## Manipulation
@@ -53,13 +54,11 @@
 - [DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193)
 - [SAM 3: Segment Anything with Concepts](https://github.com/facebookresearch/sam3)
 - [Depth Anything 3: Recovering the Visual Space from Any Views](https://github.com/ByteDance-Seed/Depth-Anything-3)
-- [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593)
+- [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593): PCD encoder
 
 **Data Augmentation**
 - [RoboEngine: Plug-and-Play Robot Data Augmentation with Semantic Robot Segmentation and Background Generation](https://arxiv.org/abs/2503.18738): Visual data augmentations
 - [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](https://robovip.github.io/RoboVIP/): Multi-view video generation
-
-### Motion Planning
 
 ### TAMP
 
