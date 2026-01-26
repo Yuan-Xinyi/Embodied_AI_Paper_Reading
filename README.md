@@ -53,6 +53,7 @@
 - [DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193)
 - [SAM 3: Segment Anything with Concepts](https://github.com/facebookresearch/sam3)
 - [Depth Anything 3: Recovering the Visual Space from Any Views](https://github.com/ByteDance-Seed/Depth-Anything-3)
+- [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593)
 
 **Data Augmentation**
 - [RoboEngine: Plug-and-Play Robot Data Augmentation with Semantic Robot Segmentation and Background Generation](https://arxiv.org/abs/2503.18738): Visual data augmentations
