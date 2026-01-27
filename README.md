@@ -63,6 +63,7 @@
 ### TAMP
 
 ## Foundation Models
+- [Point Bridge: 3D Representations for Cross Domain Policy Learning](https://arxiv.org/pdf/2601.16212)
 - [One Language-Free Foundation Model Is Enough for Universal Vision Anomaly Detection](https://arxiv.org/abs/2601.05552) 
 - [What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models](https://arxiv.org/pdf/2512.03422)
 
