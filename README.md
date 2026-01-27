@@ -14,6 +14,7 @@
 - [Contact-Aware Neural Dynamics](https://arxiv.org/pdf/2601.12796)
 
 ### Imitation Learning
+- [Diffusion In Diffusion: Reclaiming Global Coherence in Semi-Autoregressive Diffusion](https://huggingface.co/papers/2601.13599)
 - [Model-Based Diffusion Sampling for Predictive Control in Offline Decision Making](https://arxiv.org/abs/2512.08280)
   > Improve reliability: a planner + a dynamics model
 - [Equivariant Diffusion Policy](https://arxiv.org/abs/2407.01812)
