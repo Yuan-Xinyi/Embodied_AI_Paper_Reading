@@ -15,29 +15,26 @@
 
 ### Imitation Learning
 - [Diffusion In Diffusion: Reclaiming Global Coherence in Semi-Autoregressive Diffusion](https://huggingface.co/papers/2601.13599)
-- [Model-Based Diffusion Sampling for Predictive Control in Offline Decision Making](https://arxiv.org/abs/2512.08280)
-  > Improve reliability: a planner + a dynamics model
+- [Model-Based Diffusion Sampling for Predictive Control in Offline Decision Making](https://arxiv.org/abs/2512.08280): DP as planner and dynamics model.
 - [Equivariant Diffusion Policy](https://arxiv.org/abs/2407.01812)
 
 ### Reinforcement Learning
 
 ### IL+RL
-- [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](https://arxiv.org/abs/2512.16861)  
-  > IL (teleoperation and synthetic data gen) + RL (online adaptation)
+- [ReinforceGen: Hybrid Skill Policies with Automated Data Generation and Reinforcement Learning](https://arxiv.org/abs/2512.16861): IL+RL 
 - [RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning](https://arxiv.org/abs/2510.14830)
 
 ## Reasoning
 - [Watching, Reasoning, and Searching: A Video Deep Research Benchmark on Open Web for Agentic Video Reasoning](https://arxiv.org/abs/2601.06943)
-- [Lost in the Noise: How Reasoning Models Fail with Contextual Distractors](https://arxiv.org/abs/2601.07226)
-  > models disproportionately focus on distractor tokens
+- [Lost in the Noise: How Reasoning Models Fail with Contextual Distractors](https://arxiv.org/abs/2601.07226): Models are distracted.
 
 ### Inference
-- [SpatialTree: How Spatial Abilities Branch Out in MLLMs](https://arxiv.org/pdf/2512.20617)  
-  > Spatial abilities: low-level perception (L1), mental mapping (L2), simulation (L3), and agentic competence (L4)
+- [SpatialTree: How Spatial Abilities Branch Out in MLLMs](https://arxiv.org/pdf/2512.20617): Spatial abilities level 1-4.
 
 ### Reward Design
-- [RoboReward: General-Purpose Vision-Language Reward Models for Robotics](https://arxiv.org/pdf/2601.00675)  
-  > Relabels successful episodes with failed instructions and near-miss instructions for the same video (clipping).
+- [Real-Time Aligned Reward Model beyond Semantics](https://huggingface.co/papers/2601.22664): Dense reward for RLHF.
+- [DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment](https://huggingface.co/papers/2601.20218): Dense reward guidance.
+- [RoboReward: General-Purpose Vision-Language Reward Models for Robotics](https://arxiv.org/pdf/2601.00675): Construct failure demonstrations.
 
 ## Manipulation
 
@@ -45,37 +42,35 @@
 
 **Basics**
 - [Foam: Spherical Approximations of URDFs](https://github.com/CoMMALab/foam): Convert `.stl` and `.urdf` into spheres.
-- [On the Continuity of Rotation Representations in Neural Networks](https://arxiv.org/pdf/1812.07035): Continuous rotation representations in 5D and 6D
+- [On the Continuity of Rotation Representations in Neural Networks](https://arxiv.org/pdf/1812.07035): Continuous rotation representations in 5D and 6D.
 
 **Action Smoothing**
-- [Real-Time Action Chunking with Large Models](https://www.pi.website/research/real_time_chunking): Inference-time RTC
-- [Training-Time Action Conditioning for Efficient Real-Time Chunking](https://arxiv.org/pdf/2512.05964): Training-time RTC
+- [Real-Time Action Chunking with Large Models](https://www.pi.website/research/real_time_chunking): Inference-time RTC.
+- [Training-Time Action Conditioning for Efficient Real-Time Chunking](https://arxiv.org/pdf/2512.05964): Training-time RTC.
 
 **Representations**
 - [DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193)
 - [SAM 3: Segment Anything with Concepts](https://github.com/facebookresearch/sam3)
 - [Depth Anything 3: Recovering the Visual Space from Any Views](https://github.com/ByteDance-Seed/Depth-Anything-3)
-- [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593): PCD encoder
+- [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593): PCD encoder.
 
 **Data Augmentation**
-- [RoboEngine: Plug-and-Play Robot Data Augmentation with Semantic Robot Segmentation and Background Generation](https://arxiv.org/abs/2503.18738): Visual data augmentations
-- [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](https://robovip.github.io/RoboVIP/): Multi-view video generation
+- [RoboEngine: Plug-and-Play Robot Data Augmentation with Semantic Robot Segmentation and Background Generation](https://arxiv.org/abs/2503.18738): Visual data augmentations.
+- [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](https://robovip.github.io/RoboVIP/): Multi-view video generation.
 
 ### TAMP
 
 ## Foundation Models
+- [DeFM: Learning Foundation Representations from Depth for Robotics](https://arxiv.org/pdf/2601.18923): Depth foundation representations.
 - [Point Bridge: 3D Representations for Cross Domain Policy Learning](https://arxiv.org/pdf/2601.16212)
 - [One Language-Free Foundation Model Is Enough for Universal Vision Anomaly Detection](https://arxiv.org/abs/2601.05552) 
 - [What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models](https://arxiv.org/pdf/2512.03422)
 
 ### World Model
-- [Flow Equivariant World Models: Memory for Partially Observed Dynamic Environments](https://arxiv.org/abs/2601.01075)  
-  > Self-motion and external object motion are unified as flows to attain spatial latent memory & internal dynamics.
+- [Flow Equivariant World Models: Memory for Partially Observed Dynamic Environments](https://arxiv.org/abs/2601.01075): Dynamic spatial memory.
 - [Yume1.5: A Text-Controlled Interactive World Generation Model](https://arxiv.org/pdf/2512.22096)
 
 ### VLA & VLM
 - [ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver](https://arxiv.org/pdf/2508.10333) **(AAAI2026 Outstanding Paper Award)**
-- [Emergence of Human to Robot Transfer in Vision-Language-Action Models](https://www.pi.website/download/human_to_robot.pdf)  
-  > The diversity of robot data for pre-training VLAs is proportional to the capability of leveraging human videos during post-training.
-- [π 0.6: a VLA That Learns From Experience](https://arxiv.org/abs/2511.14759)  
-  > Improve VLA through real-world deployments via reinforcement learning (RL)
+- [Emergence of Human to Robot Transfer in Vision-Language-Action Models](https://www.pi.website/download/human_to_robot.pdf): Robotics data matters.  
+- [π 0.6: a VLA That Learns From Experience](https://arxiv.org/abs/2511.14759): Improve real-world deployment.  
