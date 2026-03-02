@@ -14,6 +14,9 @@
 - [Contact-Aware Neural Dynamics](https://arxiv.org/pdf/2601.12796)
 
 ### Imitation Learning
+- [Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies](https://arxiv.org/abs/2601.21251)
+- [Do You Need Proprioceptive States in Visuomotor Policies?](https://arxiv.org/abs/2509.18644): State-free Policies.
+- [Action-to-Action Flow Matching](https://arxiv.org/abs/2602.07322)
 - [Diffusion In Diffusion: Reclaiming Global Coherence in Semi-Autoregressive Diffusion](https://huggingface.co/papers/2601.13599)
 - [Model-Based Diffusion Sampling for Predictive Control in Offline Decision Making](https://arxiv.org/abs/2512.08280): DP as planner and dynamics model.
 - [Equivariant Diffusion Policy](https://arxiv.org/abs/2407.01812)
@@ -32,6 +35,7 @@
 - [SpatialTree: How Spatial Abilities Branch Out in MLLMs](https://arxiv.org/pdf/2512.20617): Spatial abilities level 1-4.
 
 ### Reward Design
+- [TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics](https://topreward.github.io/webpage/)
 - [Real-Time Aligned Reward Model beyond Semantics](https://huggingface.co/papers/2601.22664): Dense reward for RLHF.
 - [DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment](https://huggingface.co/papers/2601.20218): Dense reward guidance.
 - [RoboReward: General-Purpose Vision-Language Reward Models for Robotics](https://arxiv.org/pdf/2601.00675): Construct failure demonstrations.
@@ -49,6 +53,7 @@
 - [Training-Time Action Conditioning for Efficient Real-Time Chunking](https://arxiv.org/pdf/2512.05964): Training-time RTC.
 
 **Representations**
+- [OAT: Ordered Action Tokenization](https://ordered-action-tokenization.github.io/)
 - [DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193)
 - [SAM 3: Segment Anything with Concepts](https://github.com/facebookresearch/sam3)
 - [Depth Anything 3: Recovering the Visual Space from Any Views](https://github.com/ByteDance-Seed/Depth-Anything-3)
@@ -67,10 +72,16 @@
 - [What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models](https://arxiv.org/pdf/2512.03422)
 
 ### World Model
+- [ContactGaussian-WM: Learning Physics-Grounded World Model from Videos](https://arxiv.org/pdf/2602.11021)
+- [Causal World Modeling for Robot Control](https://arxiv.org/abs/2601.21998): Representation entanglement.
+- [World Action Models are Zero-shot Policies](https://dreamzero0.github.io/)
 - [Flow Equivariant World Models: Memory for Partially Observed Dynamic Environments](https://arxiv.org/abs/2601.01075): Dynamic spatial memory.
 - [Yume1.5: A Text-Controlled Interactive World Generation Model](https://arxiv.org/pdf/2512.22096)
 
 ### VLA & VLM
+- [ANY3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds](https://arxiv.org/pdf/2602.00807)
+- [ST4VLA: Spatially Guided Training for Vision-Language-Action Models](https://arxiv.org/abs/2602.10109)
+- [Steerable Vision-Language-Action Policies for Embodied Reasoning and Hierarchical Control](https://arxiv.org/pdf/2602.13193)
 - [ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver](https://arxiv.org/pdf/2508.10333) **(AAAI2026 Outstanding Paper Award)**
 - [Emergence of Human to Robot Transfer in Vision-Language-Action Models](https://www.pi.website/download/human_to_robot.pdf): Robotics data matters.  
 - [π 0.6: a VLA That Learns From Experience](https://arxiv.org/abs/2511.14759): Improve real-world deployment.  
