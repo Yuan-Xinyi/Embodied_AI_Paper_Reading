@@ -14,6 +14,7 @@
 - [Contact-Aware Neural Dynamics](https://arxiv.org/pdf/2601.12796)
 
 ### Imitation Learning
+- [How to Peel with a Knife: Aligning Fine-Grained Manipulation with Human Preference](https://arxiv.org/pdf/2603.03280)
 - [Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies](https://arxiv.org/abs/2601.21251)
 - [Do You Need Proprioceptive States in Visuomotor Policies?](https://arxiv.org/abs/2509.18644): State-free Policies.
 - [Action-to-Action Flow Matching](https://arxiv.org/abs/2602.07322)
@@ -34,7 +35,8 @@
 ### Inference
 - [SpatialTree: How Spatial Abilities Branch Out in MLLMs](https://arxiv.org/pdf/2512.20617): Spatial abilities level 1-4.
 
-### Reward Design
+### Reward Models
+- [ROBOMETER: Scaling General-Purpose Robotic Reward Models via Trajectory Comparisons](https://arxiv.org/pdf/2603.02115)
 - [TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics](https://topreward.github.io/webpage/)
 - [Real-Time Aligned Reward Model beyond Semantics](https://huggingface.co/papers/2601.22664): Dense reward for RLHF.
 - [DenseGRPO: From Sparse to Dense Reward for Flow Matching Model Alignment](https://huggingface.co/papers/2601.20218): Dense reward guidance.
@@ -45,6 +47,8 @@
 ### Tool Box
 
 **Basics**
+- [Demystifying Action Space Design for Robotic Manipulation Policies](https://arxiv.org/pdf/2602.23408)
+  > **Quote:** Our large-scale results suggest that properly designing the policy to predict delta actions consistently improves performance, while joint-space and task-space representations offer complementary strengths, favoring control stability and generalization, respectively.
 - [Foam: Spherical Approximations of URDFs](https://github.com/CoMMALab/foam): Convert `.stl` and `.urdf` into spheres.
 - [On the Continuity of Rotation Representations in Neural Networks](https://arxiv.org/pdf/1812.07035): Continuous rotation representations in 5D and 6D.
 
@@ -79,6 +83,9 @@
 - [Yume1.5: A Text-Controlled Interactive World Generation Model](https://arxiv.org/pdf/2512.22096)
 
 ### VLA & VLM
+- [MEM: Multi-Scale Embodied Memory for Vision Language Action Models](https://arxiv.org/pdf/2603.03596)
+- [SkillVLA: Tackling Combinatorial Diversity in Dual-Arm Manipulation via Skill Reuse](https://arxiv.org/pdf/2603.03836)
+- [A Pragmatist Robot: Learning to Plan Tasks by Experiencing the Real World](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11419794)
 - [ANY3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds](https://arxiv.org/pdf/2602.00807)
 - [ST4VLA: Spatially Guided Training for Vision-Language-Action Models](https://arxiv.org/abs/2602.10109)
 - [Steerable Vision-Language-Action Policies for Embodied Reasoning and Hierarchical Control](https://arxiv.org/pdf/2602.13193)
