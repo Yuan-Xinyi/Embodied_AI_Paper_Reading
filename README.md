@@ -104,6 +104,12 @@
   > We show that the 3D rotations have continuous representations in 5D and 6D, which are more suitable for learning.
 
 **Action Smoothing**
+- (2026.03 arXiv) [FASTER: Rethinking Real-Time Flow VLAs](https://arxiv.org/pdf/2603.19199)
+  > FASTER adaptively prioritizes near-term actions during flow sampling,...
+- (2026 ICLR) [Real-time robot execution with masked action chunking.](https://openreview.net/forum?id=r0RGJ1j9on)
+  > ... critical yet overlooked factor: intra-chunk inconsistency, where the robot’s executed action chunk partially misaligns with its current perception ...
+- (2025.12 arXiv) [VLASH: Real-Time VLAs via Future-State-Aware Asynchronous Inference](https://arxiv.org/abs/2512.01031)
+  > VLASH estimates the future execution-time state by rolling the robot state forward with the previously generated action chunk, thereby bridging the gap between prediction and execution.
 - (2025.12 arXiv) [Training-Time Action Conditioning for Efficient Real-Time Chunking](https://arxiv.org/pdf/2512.05964): Training-time RTC.
   > ... simulating inference delay at training time and conditioning on action prefixes directly, eliminating any inference-time overhead.
 - (2025.11 TRO) [DiffOG: Differentiable Policy Trajectory Optimization With Generalizability](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11267071)
@@ -121,12 +127,20 @@
 - [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593): PCD encoder.
 
 **Data Augmentation and Data Curation**
+- (2026.03 arXiv) [MolmoB T: Large-Scale Simulation Enables Zero-Shot Manipulation](https://arxiv.org/pdf/2603.16861)
+  > ... we show that zero-shot transfer to the real world is not only possible, but effective for both static and mobile manipulation.
+- (2026.03 arXiv) [SOFTMIMICGEN: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation](https://arxiv.org/pdf/2603.25725)
+  > an automated data generation pipeline for deformable object manipulation tasks.
+- (2026.04 arXiv) [Bridging the Simulation-to-Experiment Gap with Generative Models using Adversarial Distribution Alignment](https://arxiv.org/pdf/2604.01169)
+  > ... bridges this simulation-to-experiment gap by pre-training a generative model on fully observed (but imperfect) simulation data, then aligning it with partial (but real) observations of experimental data. 
+- (2026 CVPR) [MotionMaster: Generalizable Text-Driven Motion Generation and Editing](https://yzhu.io/publication/hoi2026cvpr/paper.pdf)
+  > MotionMaster generates compositional action sequences from textual instructions, successfully producing action combinations never seen during training
+- (2026.04 arXiv) [CRAFT: Video Diffusion for Bimanual Robot Data Generation](https://arxiv.org/pdf/2604.03552)
+  > ... supports a unified augmentation pipeline spanning object pose changes, camera viewpoints, lighting and background variations, crossembodiment transfer, and multi-view synthesis.
 - (2025 IROS) [RoboEngine: Plug-and-Play Robot Data Augmentation with Semantic Robot Segmentation and Background Generation](https://arxiv.org/abs/2503.18738)
   > ... generalize robot manipulation tasks across six entirely new scenes, based solely on demonstrations collected from a single scene ...
 - (2026 CVPR) [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](https://robovip.github.io/RoboVIP/)
   > ... introduce visual identity prompting, which supplies exemplar images as conditioning inputs to guide the generation of the desired scene setup.
-
-### TAMP
 
 ## Foundation Models
 - (2026.01 arXiv) [DeFM: Learning Foundation Representations from Depth for Robotics](https://arxiv.org/pdf/2601.18923): Depth foundation representations.
@@ -137,6 +151,10 @@
   > ... enhances the performance of such generalist robot policies at deployment time by re-ranking their actions according to a value function learned via offline RL.
 
 ### World Model
+- (2026.03 arXiv) [Physion-Eval: Evaluating Physical Realism in Generated Video via Human Reasoning](https://arxiv.org/pdf/2603.19607)
+  > Each generated video is derived from a corresponding realworld reference video depicting a clear physical process, and annotated with temporally localized glitches, structured failure categories, and natural-language explanations of the violated physical behavior.
+- (2026.04 arXiv) [World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry](https://arxiv.org/pdf/2604.01985)
+  > The key idea is to decompose action-conditioned state prediction into two factors—state plausibility and action reachability—and verify each separately.
 - [ContactGaussian-WM: Learning Physics-Grounded World Model from Videos](https://arxiv.org/pdf/2602.11021)
 - [Causal World Modeling for Robot Control](https://arxiv.org/abs/2601.21998): Representation entanglement.
 - [World Action Models are Zero-shot Policies](https://dreamzero0.github.io/)
@@ -144,6 +162,8 @@
 - [Yume1.5: A Text-Controlled Interactive World Generation Model](https://arxiv.org/pdf/2512.22096)
 
 ### VLA & VLM
+- (2026.04 arXiv) [CompassAD: Intent-Driven 3D Affordance Grounding in Functionally Competing Objects](https://arxiv.org/pdf/2604.02060)_
+  > In real-world scenes, multiple objects may share identical affordances, yet only one is appropriate under the given task context. 
 - [Can Vision-Language Models Solve the Shell Game?](https://arxiv.org/abs/2603.08436)
 - [MEM: Multi-Scale Embodied Memory for Vision Language Action Models](https://arxiv.org/pdf/2603.03596)
 - [SkillVLA: Tackling Combinatorial Diversity in Dual-Arm Manipulation via Skill Reuse](https://arxiv.org/pdf/2603.03836)
